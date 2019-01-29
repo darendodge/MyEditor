@@ -27,7 +27,7 @@ namespace MyEditor
                 System.IO.StreamReader(path);
 
                 rtb.Text = sr.ReadToEnd(); //loads the file in reads it to the end
-                sr.Close();
+                sr.Close();//closes the StreamReader
             }
         }
 
